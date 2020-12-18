@@ -1,0 +1,12 @@
+.footer_container {
+    border-top: 1px solid #efefef;
+    height: 50px;
+    max-height: 100px;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 29px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

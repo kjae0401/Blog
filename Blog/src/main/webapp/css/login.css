@@ -1,0 +1,113 @@
+.login_container {
+    width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+form {
+	width: 100%;
+	height: 100%;
+}
+
+form > h2 {
+	width: 100%;
+	padding-top: 32px;
+	padding-bottom: 16px;
+}
+
+form > h2 > a {
+	text-decoration: none;
+    font-size: 1.7em;
+    color: black;
+    width: 100%;
+}
+
+table {
+	width: 350px;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr, td {
+    border: 1px solid lightgray;
+}
+
+input {
+	width: 350px;
+    padding: 19px;
+    height: 19px;
+    outline: none;
+    border: none;
+}
+
+button {
+    border: 0px;
+    border-radius: 4px;
+    width: 390px;
+    height: 45px;
+    margin-top: 16px;
+    font-size: 16px;
+    color: white;
+    background-color: lightgray;
+    cursor: pointer;
+    
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.checkbox_container {
+    width: 390px;
+    margin: 0 auto;
+    height: 30px;
+}
+
+form > div > label {
+    float: left;
+    font-size: 13px;
+    font-family: -webkit-pictograph;
+    color: gray;
+}
+
+input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    margin: 8px;
+    margin-left: 0px;
+}
+
+.find_span {
+    float: right;
+    margin-top: 9px;
+    font-size: 13px;
+    color: gray;
+}
+
+.find_span > a {
+    text-decoration: none;
+    font-size: 13px;
+    color: gray;
+}
+
+.find_span>a:hover { 
+    text-decoration: underline;
+}
+
+.fail_message {
+    color: red;
+    font-size: 14px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}

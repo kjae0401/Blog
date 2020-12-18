@@ -1,0 +1,333 @@
+.nav_container {
+    background-color: transparent;
+    /*background-image: url(images/nav_background_image.jpg);*/
+    background-size: 100% 100%;
+    opacity: 85%;
+    width: 100%;
+    height: 500px;
+}
+
+.tab {
+    white-space: pre;
+}
+
+.nav_container .nav_header {
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+}
+
+.nav_container .nav_header .menu_btn {
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.nav_container .nav_header .menu_btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav_container .nav_header .menu_btn img {
+    width: 26px;
+    height: 24px;
+}
+
+.nav_container .nav_header .search_btn {
+    position: absolute;
+    right: 18px;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.nav_container .nav_header .search_btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav_container .nav_header .search_btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.nav_container .nav_title {
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+    position: absolute;
+    top: 150px;
+    text-align: center;
+}
+
+.nav_container .nav_title h1 {
+	display: contents;
+    cursor: pointer;
+    color: white;
+    font-family: monospace;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.nav_container .nav_bottom {
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    position: absolute;
+    top: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_container .nav_bottom .write_btn {
+    width: 80px;
+    height: 40px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.nav_container .nav_bottom .write_btn img {
+    width: 25px;
+    height: 25px;
+}
+
+.nav_container .nav_bottom .book_btn {
+    width: 80px;
+    height: 40px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.nav_container .nav_bottom .book_btn img {
+    width: 25px;
+    height: 25px;
+}
+
+.nav_container .nav_bottom .rss_btn {
+    width: 80px;
+    height: 40px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.nav_container .nav_bottom .rss_btn img {
+    width: 25px;
+    height: 25px;
+}
+
+.nav_container .nav_bottom .settings_btn {
+    width: 80px;
+    height: 40px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.nav_container .nav_bottom .settings_btn img {
+    width: 25px;
+    height: 25px;
+}
+
+.contents_container {
+    width: 100%;
+}
+
+.contents_container .content {
+    width: 100%;
+    height: 170px;
+    padding: 10px 15px 15px;
+    border-bottom: 1px solid #efefef;
+}
+
+.contents_container .content img {
+    width: 150px;
+    height: 165px;
+    float: right;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.contents_container .content .content_content {
+    cursor: pointer;
+}
+
+.contents_container .content .content_content strong {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 34px;
+    font-size: 24px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.contents_container .content .content_content p {
+    margin-top: 0px;
+    padding-top: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical;
+}
+
+.contents_container .content .content_sub {
+    padding-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+    color: #a7a7a7;
+}
+
+.contents_container .content .content_sub a {
+    color: #6bacce;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.contents_container .content .content_sub {
+    padding-top: 5px;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+}
+
+.footer_container {
+    max-height: 100px;
+	text-align : center;
+}
+
+.contents_container > ul {
+    padding-left: 5px;
+}
+
+.contents_container > ul > li {
+    list-style: none;
+}
+
+.pagination {
+    display: inline-block;
+    position: relative;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    border-radius: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 2px 0px 0 rgba(0, 0, 0, .5);
+}
+
+.pagination > li {
+    list-style: none;
+    display: inline-block;
+}
+
+.pagination > li > a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    color: #252525;
+    border-radius: 4px;
+    margin: 5px;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, .1), 0 2px 5px rgba(0, 0, 0, .5);
+    transition: all .3s ease;
+}
+
+.pagination > li > a:hover, .pagination > li > a.active {
+    color: #fff;
+    background-color: #ff4242;
+}
+
+.pagination > li > a.prev {
+    border-radius: 40px 0 0 40px;
+}
+
+.pagination > li > a.next {
+    border-radius: 0 40px 40px 0;
+}
+
+/*
+@media screen and (min-width:768px) {
+	.nav_container {
+    	width: 100%;
+    	height: 500px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.nav_container {
+    	background-color: yellow;
+    	width: 100%;
+    	height: 200px;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.nav_container {
+	    background-color: blue;
+	    width: 100%;
+	    height: 100px;
+	}
+}
+*/

@@ -1,0 +1,33 @@
+table {
+	width: 100%;
+}
+
+#category {
+	width: 100%;
+	height: 26px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#title {
+	width: 99%;
+	height: 20px;
+}
+
+.button_table {
+	margin-top: 50px;
+}
+
+#cke_content {
+	height: 766px !important;
+}
+
+#cke_1_contents {
+	height: 631px !important;
+}
+
+#cke_1_resizer {
+	display: none;
+}

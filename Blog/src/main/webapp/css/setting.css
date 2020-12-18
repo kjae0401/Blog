@@ -1,0 +1,133 @@
+.setting_container {
+	width: 768px;
+	margin: 0 auto;
+}
+
+.setting_table {
+	height: 500px;
+    margin-bottom: 124px;
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: rgb(229, 229, 229);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+body > div > form > table:nth-child(1) > tbody > tr {
+	border-top: 1px solid rgb(229, 229, 229);
+}
+
+body > div > form > table:nth-child(1) > tbody > tr > td:nth-child(1) {
+	border-bottom: 1px solid rgb(229, 229, 229);
+	border-right: 1px solid rgb(229, 229, 229);
+}
+
+body > div > form > table:nth-child(1) > tbody > tr > td:nth-child(2) {
+	border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+body > div > form > table.setting_table > tbody > tr > td:nth-child(2) > input[type=text] {
+	width: 50%;
+    height: 24px;
+    text-align: center;
+}
+
+.button_table {
+	margin: 0 auto;
+	padding: 16px;
+}
+
+.tree{
+	color:#393939;
+}
+
+.tree, .tree ul{
+	list-style: none;
+	padding-left:17px;
+	text-align: left;
+}
+
+.tree *:before{
+	width:17px;
+	height:17px;
+	display:inline-block;
+}
+
+.tree label{
+	cursor: pointer;
+}
+
+.tree label:before{
+	content:'\f256';
+	font-family: fontello;
+}
+
+.tree a{
+	text-decoration: none;
+	color:#393939;
+}
+
+.tree a:before{
+	content:'\e800';
+	font-family: fontello;
+}
+
+.tree input[type="checkbox"] {
+	display: none;
+}
+
+.tree input[type="checkbox"]:checked~ul {
+	display: none;
+}
+
+.tree input[type="checkbox"]:checked+label:before{
+	content:'\f255';
+	font-family: fontello;
+}
+
+.tree_items {
+	padding-top: 3px;
+}
+
+body > div > form > table.setting_table > tbody > tr:nth-child(3) > td:nth-child(2) > ul > li > ul > li > ul > li {
+	padding-top: 2px;
+}
+
+.setting_background {
+	text-align: left;
+}
+
+.inputArea {
+	margin-left: 16px;
+}
+
+.select_img {
+	width: 550px;
+	height: 300px;
+	margin-top: 16px;
+	margin-bottom: 8px;
+}
+
+.select_img > img {
+	height: 100%;
+	width: 100%;
+}
+
+#gdsImg {
+	margin-bottom: 10px;
+}
