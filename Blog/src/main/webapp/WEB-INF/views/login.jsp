@@ -22,9 +22,8 @@
             <form method="post" action="loginaction.do">
                 <h2><a href="javascript:void(0)">Blog</a></h2>
                 <table>
-                    <tr><td><input type="id" name="inputId" id="inputId" placeholder="아이디" autocomplete="off" required autofocus></td></tr>
-                    <tr><td><input type="password" name="inputPassword" id
-                    ="inputPassword" placeholder="비밀번호" autocomplete="new-password" required></td></tr>
+                    <tr><td><input type="id" name="id" id="inputId" placeholder="아이디" autocomplete="off" required autofocus></td></tr>
+                    <tr><td><input type="password" name="pwd" id="inputPassword" placeholder="비밀번호" autocomplete="new-password" required></td></tr>
                 </table>
 
                 <button type="submit">로그인</button>
@@ -39,5 +38,17 @@
                 <img src="${pageContext.request.contextPath}/css/images/login_background.jpg" />
             </form>
 		</div>
+		
+		<script>
+			window.onload = function () {
+				var login_message = <%= request.getAttribute("login_message")%>;
+				
+				if (login_message != null && login_message) {
+					$('.fail_message').css("display", "block");
+				} else {
+					$('.fail_message').css("display", "none");
+				}
+			};
+		</script>
 	</body>
 </html>

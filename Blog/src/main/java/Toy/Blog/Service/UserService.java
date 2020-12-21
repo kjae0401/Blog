@@ -1,7 +1,7 @@
 package Toy.Blog.Service;
 
-import java.util.Map;
+import Toy.Blog.DTO.UserDTO;
 
 public interface UserService {
-	boolean login(Map<String, String> cmap) throws Exception;
+	boolean login(UserDTO userDTO) throws Exception;
 }

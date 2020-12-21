@@ -153,9 +153,10 @@
 				var url = '<%= request.getSession().getAttribute("prev_url")%>';
 				e.preventDefault();
 				
-				if (prev_url == null || prev_url == '') {
+				if (url == 'null') {
 					location.href = 'homepage.do';
 				} else {
+					<% request.getSession().setAttribute("prev_url", null); %>
 					location.href = url;
 				}
 			});

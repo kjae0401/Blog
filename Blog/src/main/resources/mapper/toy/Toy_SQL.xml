@@ -5,8 +5,8 @@
 		<![CDATA[
 			SELECT EXISTS (
 				SELECT *
-				FROM toy_user
-				WHERE UserId=#{inputId} and UserPw= #{inputPassword}) AS SUCCESS;
+				FROM blog_user
+				WHERE id=#{id} and pwd= #{pwd}) AS SUCCESS;
 		]]>
 	</select>
 </mapper>

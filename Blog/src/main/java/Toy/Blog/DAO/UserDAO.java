@@ -4,11 +4,13 @@ import java.util.Map;
 
 import org.springframework.stereotype.Repository;
 
+import Toy.Blog.DTO.UserDTO;
+
 @Repository("userDAO")
 public class UserDAO extends AbstractDAO{
-	public boolean login(Map<String, String> cmap) {
+	public boolean login(UserDTO userDTO) {
 		// TODO Auto-generated method stub
-		boolean any = ((Integer)selectOne("Toy.login", cmap) != 0);
+		boolean any = ((Integer)selectOne("Toy.login", userDTO) != 0);
 		
 		return any;
 	}

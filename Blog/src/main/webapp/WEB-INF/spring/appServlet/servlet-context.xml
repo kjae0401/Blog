@@ -21,6 +21,17 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
+	<!-- Interceptor 객체 생성 -->
+	<beans:bean id="authInterceptor" class="Toy.Blog.Interceptor.authInterceptor"></beans:bean>
+	<!-- Interceptor 설정 -->
+	<interceptors>
+		<interceptor>
+			<mapping path="/write.do"/>
+			<mapping path="/setting.do"/>
+			<beans:ref bean="authInterceptor" />
+		</interceptor>
+	</interceptors>
+	
 	<!-- Service 등록 -->
 	<beans:bean	id="userService" class="Toy.Blog.Service.UserServiceImpl" />
 	

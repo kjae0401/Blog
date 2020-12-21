@@ -61,7 +61,7 @@
 				var url = '<%= request.getSession().getAttribute("prev_url")%>';
 				e.preventDefault();
 				
-				if (prev_url == null || prev_url == '') {
+				if (url == 'null') {
 					location.href = 'homepage.do';
 				} else {
 					location.href = url;

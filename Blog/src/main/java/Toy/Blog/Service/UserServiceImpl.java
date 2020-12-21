@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import Toy.Blog.DAO.UserDAO;
+import Toy.Blog.DTO.UserDTO;
 
 @Service("userService")
 public class UserServiceImpl implements UserService {
@@ -13,8 +14,8 @@ public class UserServiceImpl implements UserService {
 	private UserDAO userDAO;
 	
 	@Override
-	public boolean login(Map<String, String> cmap) throws Exception {
+	public boolean login(UserDTO userDTO) throws Exception {
 		// TODO Auto-generated method stub
-		return userDAO.login(cmap);
+		return userDAO.login(userDTO);
 	}
 }
